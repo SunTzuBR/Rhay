@@ -1,0 +1,110 @@
+html{
+}
+body{
+    position: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    margin-inline: 100px;
+    background-color: #ffeff2;
+    overflow: hidden;
+}
+.inicio{
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    align-items: center;
+    background-color: #0e2430;
+    width: 40%;
+    padding: 100px;
+    color: #c74474;
+    height: 100px;
+    border-radius: 20px;
+}
+#boanoite{
+    left: 141px;
+    position: absolute;
+    top: 20px;
+}
+#frase{
+    position: relative;
+    right: 45px;
+}
+#continuacao{
+    display: none;
+    position: absolute;
+    left: 50px;
+    top: 700px;
+    font-size: 70px;
+}
+#embora{
+    font-size: 17px;
+    padding: 5px;
+    position: absolute;
+    color: #c74474;
+    background-color: #0e2430;
+    left: 200px;
+    border-radius: 5px;
+    
+    }
+    #evil-button {
+    font-size: 17px;
+    padding: 5px;
+    position: absolute;
+    white-space: nowrap;
+    color: #c74474;
+    background-color: #0e2430;
+    border-radius: 5px;
+    }
+    #coracao{
+    display: none;
+    color: #c74474;
+    background-color: #0e2430;
+    font-size: 20px;
+    position: absolute;
+    padding: 20px;
+    border-radius: 5px;
+    }
+    #pontos{
+        color: #0e2430;
+    }
+    #imagem
+    {
+    display: none;
+    position: absolute;
+    border-radius:  10px;
+    padding: 10px;
+    width: 50vh;
+    height: 50vh;   
+    left: 120vh;
+    top: -0vh;
+    }
+
+    #desenho
+    {
+    position: absolute;
+    background-color: #ffeff2;
+    border-radius:  10px;
+    padding: 10px;
+    width: 1vh;
+    height: 1vh;   
+    left: 140vh;
+    top: -20vh;
+}#continuacao:first-child {
+    animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
+      alternate;
+}
+#frase::after{
+    content: '|';
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+}
+/*#continuacao::after{
+    content: '|';
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+
+}*/
+@keyframes blink {
+    0% {opacity :1;}
+    100% {opacity: 0;}
+}
