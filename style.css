@@ -5,7 +5,6 @@ body{
     align-items: center;
     justify-content: center;
     height: 95vh;
-    margin-inline: 100px;
     background-color: #ffeff2;
     overflow: hidden;
 }
@@ -14,7 +13,7 @@ body{
     font-size: 26px;
     align-items: center;
     background-color: #0e2430;
-    width: 40%;
+    width: 50%;
     padding: 100px;
     color: #c74474;
     height: 100px;
@@ -32,8 +31,8 @@ body{
 #continuacao{
     display: none;
     position: absolute;
-    left: 50px;
-    top: 700px;
+    left: 480px;
+    top: 570px;
     font-size: 70px;
 }
 #embora{
@@ -70,18 +69,18 @@ body{
     #imagem
     {
     display: none;
-    position: absolute;
+    position: relative;
     border-radius:  10px;
     padding: 10px;
     width: 50vh;
     height: 50vh;   
-    left: 120vh;
+    left: 102vh;
     top: -0vh;
     }
 
     #desenho
     {
-    position: absolute;
+    position: relative;
     background-color: #ffeff2;
     border-radius:  10px;
     padding: 10px;

@@ -9,15 +9,14 @@ if(pontos.style.display === "none"){
     continuacao.style.display= "none"
 }else{
     pontos.style.display= "none"
-    continuacao.style.display= "inline"
     coracao.style.display= "inline"
+    alert("Pegadinha haha, pode clicar que agora vai.")
 }
-
-
 };
 function coracao1(){
     const imagem= document.getElementById("imagem");
     const desenho= document.getElementById("desenho");
+    const continuacao= document.getElementById("continuacao");
 
     if(desenho.style.display === "none"){
       desenho.style.display = "inline"
@@ -25,6 +24,7 @@ function coracao1(){
   }else{
       desenho.style.display= "none"
       imagem.style.display= "inline"
+      continuacao.style.display= "inline"
       
   }
 
