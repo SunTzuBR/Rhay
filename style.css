@@ -108,3 +108,52 @@ body{
     0% {opacity :1;}
     100% {opacity: 0;}
 }
+/*
+
+Aqui você coloca o CSS padrão de sempre
+
+*/
+
+.container {
+    width: 100%;
+} /* Esse será o tamanho padrao da classe container*/
+
+
+
+
+
+
+/* A partir daqui são as media queries e as propriedades dos elementos que você colocar dentro das media queries
+podem mudar quando a tela for esticada ou diminuída
+
+/* Media Queries */ 
+@media screen and (max-width: 83em) {
+    .container{
+        width: 80%;
+    }   /*caso a viewport(janela do navegador) ou tamanho da tela for
+        igual ou até 83em (vc também pode usar px se preferir) a classe .container só ocupará 80% da tela*/
+}
+
+@media screen and (max-width: 58em) { /*para telas menores ou do tamanho até 58em*/
+
+}
+
+@media screen and (max-width: 49.4375em) {/*para telas menores ou do tamanho até 49.4375em*/
+
+}
+
+@media screen and (max-width: 42.5em) {/*para telas menores ou do tamanho até 42.5em*/
+
+}
+
+@media screen and (max-height: 41.125em) {/*para telas menores ou do tamanho até 41.125em*/
+
+}
+
+@media screen and (max-width: 39.375em) {/*para telas menores ou do tamanho até 39.375em*/
+
+}
+
+@media screen and (max-width: 320px) {/*para telas menores ou do tamanho até 320px (aqui está um exemplo em px)*/
+
+}
