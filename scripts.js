@@ -1,4 +1,4 @@
-function myfunction(){
+/*function myfunction(){
    const pontos= document.getElementById("pontos");
     const continuacao= document.getElementById("continuacao");
     const coracao= document.getElementById("coracao");
