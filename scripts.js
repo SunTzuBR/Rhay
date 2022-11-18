@@ -96,7 +96,7 @@ function typeWriter(p){
   p.innerHTML ="";
 
   textArray.forEach((letter, i) =>{
-    setTimeout(() =>(p.innerHTML += letter), 60 * i);
+    setTimeout(() =>(p.innerHTML += letter), 80 * i);
 });
 setInterval(() => typeWriter(p), 50000);
 }
