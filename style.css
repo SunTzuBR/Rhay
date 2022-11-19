@@ -32,8 +32,8 @@ body{
 #continuacao{
     display: none;
     position: absolute;
-    left: 600px;
-    top: 1037px;
+    left: 100vh;
+    top: -10vh;
     font-size: 70px;
 }
 #embora{
@@ -86,8 +86,8 @@ body{
     padding: 10px;
     width: 50vh;
     height: 50vh;   
-    left: 100vh;
-    top: -5vh;
+    left: 130vh;
+    top: -2vh;
     }
 
     #desenho
