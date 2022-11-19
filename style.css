@@ -33,7 +33,7 @@ body{
     display: none;
     position: absolute;
     left: 600px;
-    top: 837px;
+    top: 1037px;
     font-size: 70px;
 }
 #embora{
@@ -86,8 +86,8 @@ body{
     padding: 10px;
     width: 50vh;
     height: 50vh;   
-    left: 88vh;
-    top: -10vh;
+    left: 100vh;
+    top: -5vh;
     }
 
     #desenho
