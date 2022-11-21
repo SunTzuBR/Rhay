@@ -1,10 +1,19 @@
 html{
 }
+main {
+    width: 100%;
+  }
+  
+  article, aside {
+    width: 100%;
+    padding: 2em;
+  }
 body{
+
     position: flex;
     align-items: center;
     justify-content: center;
-    height: 95vh;
+    height: 100vh;
     background-color: #ffeff2;
     overflow: hidden;
 }
@@ -20,6 +29,29 @@ body{
     border-radius: 20px;
     font-style:italic;
 }
+span{
+    position: absolute;
+    background: url(./imagens/dff74dcb7d15b28a90ffa9ea42e2b656-removebg-preview.png);
+background-size: cover;
+width: 50px;
+height: 50px;
+pointer-events: none;
+transform: translate(-55%, -55%);
+animation: animate 2s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -700%);
+        opacity: 0;
+        filter: hue-rotate(920deg);
+    }
+
+}
 #boanoite{
     left: 141px;
     position: absolute;
@@ -32,8 +64,10 @@ body{
 #continuacao{
     display: none;
     position: absolute;
-    left: 140vh;
+    left: 800px;
+    top: 600px;
     font-size: 70px;
+    margin: 2em;
 }
 #embora{
     font-size: 17px;
@@ -75,7 +109,7 @@ body{
   color: #0e2430;}
 
     #pontos{
-        color: #0e2430;
+        color: transparent;
     }
     #imagem
     {
@@ -84,9 +118,11 @@ body{
     border-radius:  10px;
     padding: 10px;
     width: 50vh;
-    height: 50vh;
-    top: -50px;
-    left: 900px}
+    height: 50vh;   
+    left: 1110px;
+    top: 5vh;
+    margin: 2em
+    }
 
     #desenho
     {
@@ -98,7 +134,10 @@ body{
     height: 1vh;   
     left: 140vh;
     top: -20vh;
-}
+}/*#continuacao:first-child {
+    animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
+      alternate;
+}*/
 #frase::after{
     content: '|';
     margin-left: 5px;
